@@ -246,6 +246,3 @@ If you provide different constraints, update `nsjail/python.cfg` and `app.py` ac
 
 ---
 
-## License
-
-MIT (or add the license your organization requires).

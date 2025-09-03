@@ -18,7 +18,7 @@ RUN make -j"$(nproc)" CC=clang
 RUN strip /src/nsjail/nsjail
 
 # ---- Stage 2: runtime (Python + runtime libs for nsjail and numpy/pandas) ----
-FROM python:3.11-slim-bookworm
+FROM python:3.12-slim-bookworm
 
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PORT=8080
 
